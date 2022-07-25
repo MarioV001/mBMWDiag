@@ -1,0 +1,14 @@
+﻿<Window x:Class="mBMWDiagn.OBDDiagram"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mBMWDiagn"
+        mc:Ignorable="d"
+        Title="OBDDiagram" Height="468.417" Width="611.832">
+    <Grid Margin="0,0,25,9">
+        <Image Margin="21,18,152,20" Source="OBDII port1070929671.jpg"/>
+        <Label Content="NOTE: Pin16 require power for ENETTesting !" Margin="10,0,0,0" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Width="263"/>
+
+    </Grid>
+</Window>
